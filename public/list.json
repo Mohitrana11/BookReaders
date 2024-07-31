@@ -1,19 +1,23 @@
 [
     {
         "id":1,
-        "name":"Story Book",
-        "title":"Lorem ipsum dolor sit amet consectetur",
+        "name":"Rich Dad Poor Dad",
+        "title":"Rich Dad Poor Dad is an essential read for anyone interested in improving their financial literacy and achieving financial independence. ",
         "price":0,
         "category":"forYou",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740&t=st=1721986136~exp=1721986736~hmac=c525142a37e0f7067e95f4a401078f666cb7f4f73c328837cfda92a332dbbcff"
+        "image":"https://m.media-amazon.com/images/I/81BE7eeKzAL._AC_UF1000,1000_QL80_.jpg",
+        "description":"Rich Dad Poor Dad is a personal finance book written by Robert T. Kiyosaki. The book contrasts the financial advice and upbringing of the author's poor dad (his biological father) with the insights provided by his rich dad (the father of his childhood best friend). Kiyosaki uses these two contrasting perspectives to explore ideas about wealth accumulation, investment, and financial independence. The book emphasizes the importance of financial education, assets versus liabilities, and the mindset needed to achieve financial success. Rich Dad Poor Dad has been influential for many readers seeking to improve their financial literacy and is often recommended for those interested in personal finance or entrepreneurship."
+        
     },
     {
-        "id":2,
-        "name":"Robin Serma ",
-        "title":"Lorem ipsum dolor sit amet consectetur",
+        "id":1,
+        "name":"Rich Dad Poor Dad",
+        "title":"Rich Dad Poor Dad  ",
         "price":0,
         "category":"forYou",
-        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0qAiMcHJanH1RM5GLTeQ30UcaTTE3CBh-Gg&s"
+        "image":"https://m.media-amazon.com/images/I/81BE7eeKzAL._AC_UF1000,1000_QL80_.jpg",
+        "description":"Rich Dad Poor Dad is a personal finance book written by Robert T. Kiyosaki. The book contrasts the financial advice and upbringing of the author's poor dad (his biological father) with the insights provided by his rich dad (the father of his childhood best friend). Kiyosaki uses these two contrasting perspectives to explore ideas about wealth accumulation, investment, and financial independence. The book emphasizes the importance of financial education, assets versus liabilities, and the mindset needed to achieve financial success. Rich Dad Poor Dad has been influential for many readers seeking to improve their financial literacy and is often recommended for those interested in personal finance or entrepreneurship."
+        
     },
     {
         "id":3,
@@ -21,7 +25,8 @@
         "title":"Atomic Habbits that can change you life tiny thing can change you way of thinking ",
         "price":0,
         "category":"forYou",
-        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7sF4cP5SwBMDajzGBhaBw20DrC1-SyCH2vQ&s"
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7sF4cP5SwBMDajzGBhaBw20DrC1-SyCH2vQ&s",
+         "description":"Atomic Habits is a self-help book that explores the nature of habits and provides practical strategies for making positive changes in various areas of life. James Clear discusses how small, incremental changes in behavior - atomic habits - can lead to significant improvements over time. The book delves into the science behind habit formation, including the cue-routine-reward loop, and offers actionable advice for breaking bad habits and building good ones.James Clear emphasizes the importance of making small, sustainable changes and highlights how the environment and systems we create can either support or hinder our habit formation. Atomic Habits has been well-received for its clear, practical approach to personal development and behavior change, and it's often recommended for individuals looking to understand and improve their habits."
     },
     {
         "id":4,
@@ -29,7 +34,8 @@
         "title":"the psychology of monay",
         "price":0,
         "category":"forYou",
-        "image":"https://images.meesho.com/images/products/112434377/jjymy_512.webp"
+        "image":"https://images.meesho.com/images/products/112434377/jjymy_512.webp",
+        "description":"The psychology of money refers to the study of the mental, emotional, and behavioral factors that influence our attitudes and behaviors toward financial decisions, wealth, and material possessions. This field encompasses a wide range of topics, including our individual beliefs about money, our spending and saving habits, financial risk-taking, attitudes toward wealth and poverty, and the impact of societal and cultural factors on our financial psychology.Understanding the psychology of money can provide insight into why people make certain financial choices, how they perceive and manage financial risk, and how their attitudes toward money influence their overall well-being. Researchers in this field often study topics such as financial anxiety, the impact of upbringing and education on financial attitudes, the role of emotions in financial decision-making, and the influence of social comparison and status seeking on spending behavior.Additionally, the psychology of money examines the intersection of psychological principles with financial principles, exploring how cognitive biases, decision-making heuristics, and personality traits can shape our financial attitudes and behaviors. This understanding can be valuable in helping individuals and organizations make more informed financial decisions and develop healthier relationships with money."
     },
     {
         "id":5,

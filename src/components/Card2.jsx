@@ -1,5 +1,6 @@
 // import React from 'react'
 
+
 function Card2({ item }) {
 
   const fixDescription = (description) => {
@@ -27,9 +28,9 @@ function Card2({ item }) {
                 our dreams, we can gain insights into our thoughts and emotions.
               </p>
             </div>
-            <div className="flex flex-wrap -m-4">
+            <div className="flex flex-wrap -m-4"  >
               <div className="xl:w-1/4 md:w-1/2 p-4">
-                <div className="bg-gray-100 p-6 rounded-lg">
+                <div className="bg-gray-100 p-6 rounded-lg" >
                   <img
                     className="h-40 rounded w-full object-cover object-center mb-6"
                     src={item.volumeInfo.smallThumbnail?.thumbnail} alt={item.volumeInfo.title}
@@ -45,6 +46,8 @@ function Card2({ item }) {
                   </p>
                 </div>
               </div>
+
+
 
              <div className="xl:w-1/4 md:w-1/2 p-4">
                 <div className="bg-gray-100 p-6 rounded-lg">
@@ -63,6 +66,8 @@ function Card2({ item }) {
                   </p>
                 </div>
               </div>
+
+              
               <div className="xl:w-1/4 md:w-1/2 p-4">
                 <div className="bg-gray-100 p-6 rounded-lg">
                   <img
@@ -105,6 +110,7 @@ function Card2({ item }) {
           </div>
         </section>
       </div>
+ 
     </>
   );
 }

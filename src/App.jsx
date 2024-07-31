@@ -17,8 +17,6 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/singup' element={<Singup />} />
           <Route path='/des' element={<BookDes />} />
-
-
         </Routes>
       </BrowserRouter>
 

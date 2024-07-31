@@ -1,9 +1,14 @@
 // import React from "react";
+import { useState } from "react";
+import BookDiscription from "./BookDiscription";
 
 function Cards({ item }) {
+  const [show ,setShow] = useState(false);
+  const [bookItem ,setItem] = useState();
+ 
   return (
     <>
-      <div className="mt-4 my-3 p-3 ">
+      <div className="mt-4 my-3 p-3 "  onClick={()=>{setShow(true);setItem(item); document.getElementById('vitarow').showModal(); }} >
         <div className="card w-80 max-h-80 bg-base-100 shadow-xl hover:scale-105 duration-200 dark:bg-slate-900 dark:text-white dark:border ">
           <figure>
             <img src={item.image} alt="Shoes" />
@@ -23,6 +28,7 @@ function Cards({ item }) {
           </div>
         </div>
       </div>
+      <BookDiscription show={show} item={bookItem} />
     </>
   );
 }

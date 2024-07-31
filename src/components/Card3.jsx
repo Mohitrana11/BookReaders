@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
+import BookAbout from "./BookAbout";
 
 function Card3({ item }) {
+
+  const [book,setBook] = useState(false);
+  const [bookItem,setItem] = useState();
   // Helper function to truncate the description to 20 words
   const truncateDescription = (description) => {
     if (!description) return "No description available";
@@ -10,7 +14,7 @@ function Card3({ item }) {
 
   return (
     <>
-      <div className="mt-4 my-3 p-3">
+      <div className="mt-4 my-3 p-3"   onClick={()=>{setBook(true);setItem(item); document.getElementById('vitarow23').showModal(); }}>
         <div className="card w-80 max-h-80 bg-base-100 shadow-xl hover:scale-105 duration-200 dark:bg-slate-900 dark:text-white dark:border">
           <figure>
             <img src={item.volumeInfo.imageLinks?.thumbnail} alt={item.volumeInfo.title} />
@@ -34,6 +38,7 @@ function Card3({ item }) {
           </div>
         </div>
       </div>
+      <BookAbout show={book} item={bookItem} />
     </>
   );
 }

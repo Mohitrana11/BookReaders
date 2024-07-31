@@ -49,7 +49,7 @@ function Slides() {
   useEffect(() => {
     const fetchBooks = async () => {
       try {
-        const response = await fetch('https://www.googleapis.com/books/v1/volumes?q=selfhelp');
+        const response = await fetch('https://www.googleapis.com/books/v1/volumes?q=Money');
         const data = await response.json();
         setBooks(data.items);
       } catch (error) {

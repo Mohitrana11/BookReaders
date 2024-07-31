@@ -1,6 +1,6 @@
 // import React from "react";
 // import { useEffect } from "react";
-import banner from "../../public/banners.png";
+import banner from '../../public/banners.png'
 function Banner() {
   //Slides:
 
